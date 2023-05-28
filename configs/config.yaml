@@ -1,0 +1,14 @@
+dataset: aero
+bands: 3
+n_classes: 12
+ignore_index: 0
+batch_size: 4
+epochs: 300
+learning_rate: 0.001
+
+use_augs: False
+network_arch: deeplabv3+
+
+use_GPU: True
+
+best_model_path: savedmodels/aero/deeplabv3plus+mobilenetv2_78.pth  # Pavia  Salinas  Aerial  Houston  XiongAn
